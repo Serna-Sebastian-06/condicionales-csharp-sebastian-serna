@@ -1,8 +1,8 @@
 ﻿Console.Write("Ingrese el valor de la compra: ");
 double compra = double.Parse(Console.ReadLine());
 
-Console.Write("¿Es cliente frecuente? (s/n): ");
-bool frecuente = Console.ReadLine().ToLower() == "s";
+Console.Write("¿Es cliente frecuente? (si/no): ");
+bool frecuente = Console.ReadLine().ToLower() == "si";
 
 double descuentoBase = 0;
 
